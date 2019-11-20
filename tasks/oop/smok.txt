@@ -1,0 +1,52 @@
+Smok ma:
+    nazwę
+    pozycję x na ekranie
+    pozycję y na ekranie
+    nazwę pliku tekstury, domyślnie img/dragon/alive.png
+    punkty życia, domyślnie losowy int z zakresu od 50 do 100
+Smok może:
+    być ustawiony w dowolne miejsce ekranu
+    zadawać komuś losowe obrażenia z przedziału od 5 do 20
+    otrzymywać obrażenia
+    być przesuwany o zadaną liczbę punktów w którymś z kierunków
+Przyjmij górny lewy róg ekranu za punkt początkowy:
+    idąc w prawo dodajesz x
+    idąc w lewo odejmujesz x
+    idąc w górę odejmujesz y
+    idąc w dół dodajesz y
+Gdy smok otrzymuje obrażenia:
+    wypisz nazwę smoka,
+    ilość obrażeń, które otrzymał
+    pozostałe punkty życia
+Kiedy punkty życia Smoka spadną do, lub poniżej zera:
+    Smok jest martwy
+    Ustaw status obiektu na dead
+    Wypisz napis XXX is dead gdzie XXX to nazwa smoka
+    Zmień nazwę pliku tekstury na img/dragon/dead.png
+    Wypisz ile złota smok wyrzucił (losowa 1-100)
+    Wypisz pozycję gdzie smok zginął
+    Nie można zadawać mu obrażeń
+    Smok nie może zadawać obrażeń
+    Smok nie może się poruszać
+Przeprowadź grę:
+    Stwórz smoka w pozycji x=50, y=120 i nazwij go "Wawelski"
+    Ustaw nową pozycję na x=10, y=20
+    Przesuń smoka w lewo o 10 i w dół o 20
+    Przesuń smoka w lewo o 10 i w prawo o 15
+    Przesuń smoka w prawo o 15 i w górę o 5
+    Przesuń smoka w dół o 5
+    Zadaj 10 obrażeń smokowi
+    Zadaj 5 obrażeń smokowi
+    Zadaj 3 obrażeń smokowi
+    Zadaj 2 obrażeń smokowi
+    Zadaj 15 obrażeń smokowi
+    Zadaj 25 obrażeń smokowi
+    Zadaj 75 obrażeń smokowi
+Wymagania niefunkcjonalne:
+    Zadanie jest tylko narracją do demonstracji OOP i dobrych praktyk programowania
+    Pozycja Smoka na końcu powinna być x=20, y=40
+    Możesz wprowadzać dodatkowe pola, metody, funkcje, zmienne, stały, klasy, obiekty, co tylko chcesz
+    Zadanie jest specyfikacją wymagań biznesowych, a nie dokumentacją techniczną. tj. "co Smok ma robić, a nie jak to ma robić"
+    Nie musisz trzymać się kolejności punktów i podpunktów w zadaniu
+    Jest to wersja alpha więc bez dodatkowych funkcjonalności (np. sprawdzanie koordynatów)
+    Nie przeglądaj kolejnych (przyszłych) części zadania. Zadanie jest symulacją procesu developmentu. Jeżeli zaglądniesz w przód, to zepsujesz sobie zabawę i naukę.
